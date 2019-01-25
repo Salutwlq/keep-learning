@@ -1,13 +1,13 @@
-package com.lqw.java8_optional;
+package com.lqw.deal_with_null;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Java8OptionalApplication {
+public class DealWithNullApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Java8OptionalApplication.class, args);
+        SpringApplication.run(DealWithNullApplication.class, args);
     }
 
 }
