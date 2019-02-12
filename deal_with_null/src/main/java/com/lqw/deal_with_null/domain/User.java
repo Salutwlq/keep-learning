@@ -3,6 +3,8 @@ package com.lqw.deal_with_null.domain;
 import lombok.Data;
 import org.springframework.stereotype.Component;
 
+import javax.validation.constraints.Max;
+
 /**
  * @AUTHOR: liuquanwei
  * @DATE: 2019/1/25
@@ -15,6 +17,7 @@ public class User {
     /**
      * 用户主键
      */
+    @Max(200)
     private long id;
 
     /**
@@ -26,4 +29,6 @@ public class User {
      * 用户年龄
      */
     private int age;
+
+
 }
